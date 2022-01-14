@@ -21,5 +21,6 @@ void gameover() {
     rectMode(CENTER);
     imageMode(CENTER);
     mode = 1;
+    myHero = new Hero();
   }
 }
