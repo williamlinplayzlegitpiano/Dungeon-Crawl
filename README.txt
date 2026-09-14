@@ -1,5 +1,7 @@
 Dungeon Crawl - restored prototype
 
+![Dungeon Crawl gameplay](gameplay.png)
+
 RUN
 1. Extract this entire ZIP first.
 2. Open RPG/RPG.pde in Processing, using Java mode.
