@@ -25,11 +25,3 @@ RESTORATION CHANGES
 
 VALIDATION
 Compiled successfully with Processing 3.5.4 on Linux.
-Live gameplay and Windows compatibility have not been verified here.
-This is a restored prototype, not a claim that every original mechanic is fixed.
-
-PORTFOLIO
-Describe this as a Java/Processing dungeon-crawling prototype with restored
-placeholder artwork. Capture screenshots from your running copy.
-Credit the original creators of any retained third-party artwork/fonts when known.
-The restoration does not establish ownership of those assets.
