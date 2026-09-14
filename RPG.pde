@@ -1,4 +1,3 @@
-import processing.javafx.*;
 //item variable designation
 final int DMG = 0;
 final int HEALTH = 1;
@@ -124,7 +123,18 @@ boolean win;
 //portal timer
 int endgametimer;
 
+void settings() {
+  size(800, 600);
+}
+
 void setup() {
+  resetGame();
+}
+
+void resetGame() {
+  introtimer = 0;
+  immunity = immunitytimer = 0;
+  w = a = s = d = space = one = two = three = four = false;
   //variable initializations
   gun = 1;
   globaltimer = 0;
@@ -139,7 +149,6 @@ void setup() {
 
 
   //parameters
-  size(800, 600, FX2D);
   mode = 1;
 
   //gif load
@@ -194,21 +203,21 @@ void setup() {
 
   //image load
 
-  map = loadImage("game/map.png");
+  map = restoredImage("game/map.png");
 
-  heal = loadImage("items/heal.png");
-  dmg = loadImage("items/dmg.png");
-  run = loadImage("items/run.png");
-  magic = loadImage("items/magic.png");
+  heal = restoredImage("items/heal.png");
+  dmg = restoredImage("items/dmg.png");
+  run = restoredImage("items/run.png");
+  magic = restoredImage("items/magic.png");
 
-  brick = loadImage("game/brick.png");
+  brick = restoredImage("game/brick.png");
 
-  stunspell = loadImage ("wand/red.png");
-  waterspell = loadImage ("wand/blue.png");
-  killspell = loadImage ("wand/green.png");
-  bombspell = loadImage ("wand/white.png");
+  stunspell = restoredImage("wand/red.png");
+  waterspell = restoredImage("wand/blue.png");
+  killspell = restoredImage("wand/green.png");
+  bombspell = restoredImage("wand/white.png");
   
-  shield = loadImage ("shield/shield.png");
+  shield = restoredImage("shield/shield.png");
 
   //room initialization
   int a = 0;

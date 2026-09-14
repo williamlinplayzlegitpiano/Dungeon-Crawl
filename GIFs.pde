@@ -10,7 +10,7 @@ class AnimatedGIF {
     pics = new PImage[nf];
     int i = 0;
     while (i<nf) {
-      pics[i] = loadImage(pre +i+ post);
+      pics[i] = restoredImage(pre +i+ post);
       i++;
     }
     currentFrame = 0;
@@ -27,13 +27,13 @@ class AnimatedGIF {
     int i = 0;
     while (i<nf) {
       if (i < 10) {
-        pics[i] = loadImage(pre +0+i+ post);
+        pics[i] = restoredImage(pre +0+i+ post);
         i++;
       } else if (i < 100) {
-        pics[i] = loadImage(pre +i+ post);
+        pics[i] = restoredImage(pre +i+ post);
         i++;
       } else {
-        pics[i] = loadImage(pre +i+ post);
+        pics[i] = restoredImage(pre +i+ post);
         i++;
       }
     }
