@@ -1,6 +1,6 @@
 Dungeon Crawl - restored prototype
 
-![Dungeon Crawl gameplay](gameplay.png)
+![Dungeon Crawl gameplay](./gameplay.png)
 
 RUN
 1. Extract this entire ZIP first.
